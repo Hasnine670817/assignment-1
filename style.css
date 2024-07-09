@@ -9,7 +9,8 @@
 
 body {
     font-family: "Azeret Mono";
-    color: rgb(13, 19, 33);;
+    color: rgb(13, 19, 33);
+    background-color: #FFF;
 }
 
 /* --custom css-- */
@@ -24,12 +25,21 @@ body {
     display: flex;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
 a {
     color: rgb(13, 19, 33);
     text-decoration: none;
     transition: 0.3s all ease-in-out;
     display: inline-block;
 }
+
 
 
 /* 
@@ -101,5 +111,102 @@ banner-area
     line-height: 26px;
     border-radius: 8px;
     background: rgb(13, 19, 33); 
-    padding: 21px 24px;  
+    padding: 18px 28px;  
+}
+
+
+
+/* 
+-----------------
+web-area
+-----------------
+*/
+
+.main-dev-area {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 95px;
+}
+
+.dev-h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+/* ---development-area--- */
+
+.development-area h2 {
+    margin: 0 0 24px;
+}
+
+.development-area p {
+    margin: 0 0 48px;
+}
+
+.coding-div {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    margin: 0 0 30px;
+}
+
+.coding-item * {
+    text-align: start;
+}
+
+.coding-item1 {
+    padding-right: 10%;
+}
+
+.coding-item2 {
+    padding-left: 10%;
+}
+
+.dev-h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 16px;
+}
+
+.learn-more-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+}
+
+
+/* ---iframe-area--- */
+
+.iframe-area h2 {
+    margin: 0 0 24px;
+}
+
+.iframe-area p {
+    margin: 0 0 45px;
+}
+
+.iframe-div {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.iframe-div iframe {
+    border-radius: 16px;
 }
