@@ -74,6 +74,11 @@ header-area
     line-height: 23px;
 }
 
+.header-area .d-flex > a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
 
 /* 
 ----------------
@@ -112,6 +117,10 @@ banner-area
     border-radius: 8px;
     background: rgb(13, 19, 33); 
     padding: 18px 28px;  
+}
+
+.banner-area a:hover {
+    opacity: 0.8;
 }
 
 
@@ -189,6 +198,13 @@ web-area
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px;
+}
+
+
+.learn-more-btn:hover {
+    background-color: #1680B9;
+    border: 1px solid #1680B9;
+    color: #FFF;
 }
 
 
@@ -319,6 +335,10 @@ web-area
     margin-left: 5px;
     cursor: pointer;
     border: none;
+}
+
+.support-div form button[type='submit']:hover {
+    opacity: 0.8;
 }
 
 
